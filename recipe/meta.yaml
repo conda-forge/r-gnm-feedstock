@@ -15,7 +15,8 @@ source:
   sha256: b43a91fbe51848a414858ece413d2886d2fbbed4c2d88da0243c350275e7a705
 
 build:
-  number: 0
+  merge_build_host: True  # [win]
+  number: 1
   skip: true  # [win32]
   rpaths:
     - lib/R/lib/
@@ -23,15 +24,16 @@ build:
 
 requirements:
   build:
+    - posix                # [win]
+    - {{ compiler('c') }}        # [unix]
+    - {{ compiler('m2w64_c') }}  # [win]
+  host:
     - r-base
     - r-mass
     - r-matrix
     - r-nnet
     - r-qvcalc >=0.8_3
     - r-relimp
-    - posix                # [win]
-    - {{native}}toolchain  # [win]
-    - gcc                  # [not win]
 
   run:
     - r-base
@@ -40,7 +42,6 @@ requirements:
     - r-nnet
     - r-qvcalc >=0.8_3
     - r-relimp
-    - libgcc  # [not win]
 
 test:
   commands:
