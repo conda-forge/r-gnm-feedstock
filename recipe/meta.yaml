@@ -51,7 +51,7 @@ test:
 
 about:
   home: https://github.com/hturner/gnm
-  license: GPL-2 | GPL-3
+  license: GPL-2.0-or-later
   summary: Functions to specify and fit generalized nonlinear models, including models with multiplicative
     interaction terms such as the UNIDIFF model from sociology and the AMMI model from
     crop science, and many others.  Over-parameterized representations of models are
