@@ -3,7 +3,7 @@ About r-gnm
 
 Home: https://github.com/hturner/gnm
 
-Package license: GPL-2 | GPL-3
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gnm-feedstock/blob/master/LICENSE.txt)
 
