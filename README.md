@@ -3,6 +3,7 @@ About r-gnm-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-gnm-feedstock/blob/main/LICENSE.txt)
 
+
 About r-gnm
 -----------
 
@@ -11,6 +12,7 @@ Home: https://github.com/hturner/gnm
 Package license: GPL-2.0-or-later
 
 Summary: Functions to specify and fit generalized nonlinear models, including models with multiplicative interaction terms such as the UNIDIFF model from sociology and the AMMI model from crop science, and many others.  Over-parameterized representations of models are used throughout; functions are provided for inference on estimable parameter combinations, as well as standard methods for diagnostics etc.
+
 About r-gnm
 -----------
 
